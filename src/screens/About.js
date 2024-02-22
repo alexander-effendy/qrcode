@@ -7,7 +7,7 @@ const Cibai = () => {
 	const navigate = useNavigate();
 	return (
 		<Box>
-			This is cibai page
+			This is about page
 			<Button onClick={() => navigate('/')}>Back to home</Button>
 		</Box>
 	)

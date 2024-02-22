@@ -10,8 +10,8 @@ const Home = () => {
 		<Box>
 			This is home
 			<Button
-				onClick={() => navigate('/cibai')}
-			>Cibai</Button>
+				onClick={() => navigate('/About')}
+			>About</Button>
 			<br/>
 			Enter a github username
 			<TextField />
