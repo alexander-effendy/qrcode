@@ -20,7 +20,7 @@ const Home = () => {
       alert('Please enter something');
       setQRCodeInput(false);
     } else {
-      QRCode.toDataURL(`https://github.com/${username}`).then(setSrc);
+      QRCode.toDataURL(`https://instagram.com/${username}`).then(setSrc);
       setQRCodeInput(true);
     }
   }
@@ -58,11 +58,11 @@ const Home = () => {
 					{/* <Button
 						onClick={() => navigate('/About')}
 					>About</Button> */}
-					<typography style={{ fontWeight: 'bold', fontSize: '2em' }}>
-						Generate QR Code for Github User
+					<typography style={{ fontWeight: 'bold', fontSize: '2em', marginLeft: '1.5%' }}>
+						Generate QR Code for Instagram User
 					</typography>
 					
-					<Box sx={{ backgroundColor: '' }}>
+					<Box sx={{ backgroundColor: '', marginTop: '1%'}}>
 						<TextField
 							id="outlined-basic" 
 							label="username" 
